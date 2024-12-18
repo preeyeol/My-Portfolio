@@ -8,6 +8,8 @@ const Skills = () => (
       <li>React</li>
       <li>JavaScript</li>
       <li>HTML & CSS</li>
+      <li>API Securities</li>
+      <li>Database Management</li>
       <li>Node.js</li>
     </ul>
   </section>
