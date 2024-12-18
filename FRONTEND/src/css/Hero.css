@@ -1,0 +1,25 @@
+.hero {
+  background: url("/path/to/your/hero-image.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+}
