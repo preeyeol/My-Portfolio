@@ -1,12 +1,12 @@
 import React from "react";
-// import "./About.css";y
+import "../css/About.css";
 
 const About = () => (
   <section id="about" className="about">
     <h2>About Me</h2>
     <p>
-      Hello! I’m [Your Name], a [Your Profession/Expertise]. I love coding and
-      solving real-world problems with technology.
+      Hello! I’m PREETI RASKOTI, a BACKEND DEVELOPER. I love coding and solving
+      real-world problems with technology.
     </p>
   </section>
 );

@@ -1,0 +1,40 @@
+.projects {
+  padding: 50px;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.project p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
