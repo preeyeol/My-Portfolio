@@ -7,7 +7,7 @@ const cors = require("cors");
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:5000",
+  origin: "http://localhost:5173",
   credentials: true,
   methods: "GET,POST",
 };
@@ -41,9 +41,7 @@ app.post("/api/contact", async (req, res) => {
 
     // Send the email
     const info = await transporter.sendMail(mailOptions);
-    console.log(info);
 
-    console.log("Email sent: " + info.response);
     res
       .status(200)
       .json({ success: true, message: "Email sent successfully!" });

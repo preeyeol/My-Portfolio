@@ -19,11 +19,11 @@ const Contact = () => {
   const handleFormSubmit = async (e) => {
     e.preventDefault();
 
-    const formData = {
-      name: e.target.name.value,
-      email: e.target.email.value,
-      message: e.target.message.value,
-    };
+    // const formData = {
+    //   name: e.target.name.value,
+    //   email: e.target.email.value,
+    //   message: e.target.message.value,
+    // };
 
     try {
       const response = await fetch("http://localhost:5000/api/contact", {
@@ -35,11 +35,11 @@ const Contact = () => {
       });
       console.log(response);
       const result = await response.json();
-      if (response.ok) {
+      if (response.success) {
         alert("Message sent successfully!");
         setFormData({ name: "", email: "", message: "" });
       } else {
-        alert(`Error: ${result.message}`);
+        alert(`Success: ${result.message}`);
       }
     } catch (error) {
       console.error("Error sending message:", error);
